@@ -1,0 +1,18 @@
+Struct member 1:
+ID number: 111222333
+Full name: Eyal Golan
+Age: 50
+Years of dduction: 8
+
+Struct member 2:
+ID number: 222333444
+Full name: Omer Adam
+Age: 26
+Years of dduction: 12
+
+Struct member 3:
+ID number: 333444555
+Full name: Moshe Peretz
+Age: 33
+Years of dduction: 12
+
