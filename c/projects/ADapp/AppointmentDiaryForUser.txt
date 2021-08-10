@@ -1,0 +1,15 @@
+Welcome! Here are today's appointments:
+
+Appointment 1:
+Appointment start time -> 5.000000
+Appointment end time -> 6.000000
+Room number -> 100
+
+Appointment 2:
+Appointment start time -> 8.000000
+Appointment end time -> 9.000000
+Room number -> 56
+
+Appointment diary capacity: 10
+Appointment diary increase block size: 5
+Appointment diary number of elements: 2
