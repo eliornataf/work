@@ -122,7 +122,7 @@ Every smart device can react to signal according to the following logic:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<h3 align="center">UML diagram</h3>
+<h3 align="center">UML Diagram</h3>
 </div>
 
 <br />
@@ -131,7 +131,7 @@ Every smart device can react to signal according to the following logic:
     <img src="https://i.ibb.co/hYxjc24/UML-diagram.jpg" alt="UML" width="1200" height="1200">
   </a>
 
-<h3 align="center">Screenshot</h3>
+<h3 align="center">Output Sample Screenshot</h3>
 </div>
 
 <br />
