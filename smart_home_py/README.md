@@ -129,7 +129,17 @@ Every smart device can react to signal according to the following logic:
     <img src="https://i.ibb.co/tLxXtTr/UML-diagram.jpg" alt="UML" width="1200" height="1200">
   </a>
 
+<h3 align="center">Screenshot</h3>
+</div>
 
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="https://i.ibb.co/DbnTbQ8/Screen-Shot-2021-12-05-at-13-07-13.png" alt="UML" width="1200" height="1200">
+  </a>
+  
+  
+  
 <!-- CONTACT -->
 ## Contact
 
