@@ -71,11 +71,10 @@ Every smart device can react to signal according to the following logic:
 - Water-heater:
     - “cold” signal - if there is less than an hour until someone is coming back home (these values will be predefined) - turn on heater for 25 minutes (then turn it off)
 
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg" alt="Logo" width="600" height="300">
+    <img src="https://i.ibb.co/tLxXtTr/UML-diagram.jpg" alt="UML" width="600" height="600">
   </a>
 
 <h3 align="center">Sample</h3>
