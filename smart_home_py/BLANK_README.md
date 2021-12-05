@@ -50,7 +50,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg)
 
 Smart-home simulator
 Simulate how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
