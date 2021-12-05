@@ -5,7 +5,7 @@
     <img src="https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg" alt="Logo" width="600" height="300">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Smart-home simulator</h3>
 
   <p align="center">
     project_description
