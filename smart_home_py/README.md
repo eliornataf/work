@@ -9,7 +9,7 @@
 
   <p align="center">
     Smart-home simulator
-Simulate how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
+simulates how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
 The system was built with a multithreading library to make the best solution for multi smart-home no blocking devices.
   </p>
 </div>
@@ -48,11 +48,11 @@ The smart home solution includes 3 components:
 1. Central unit - is the “brain” of the smart-home.
 2. Data provider - is a third party api weather provider (to fetch current weather data).
 3. Smart device - can be any of the followings:
-    Switch - turn light or on off
-    Air-Conditioner - manipulate room temperature
-    Water-Heater - boil water for a specific amount of time
+    Switch - turn light on or off
+    Air-Conditioner - manipulates room temperature
+    Water-Heater - boils water for a specific amount of time
     
-The smart home fetch weather data every hour from a data provider (openweathermap API), analyze the income data, and send signal to the smart home devices:
+The smart home fetches weather data every hour from a data provider (openweathermap API), analyzes the income data, and sends a signal to the smart home devices:
 - Whenever temperature is higher than 30 degrees - send “hot” signal
 - Whenever temperature is lower than 15 degrees - send “cold” signal
 - In any other case - send “normal” signal
@@ -113,7 +113,9 @@ Every smart device can react to signal according to the following logic:
     HOUR_OF_COMING_BACK_HOME = "ENTER THE HOUR ([0-23]) YOU ARE COMING BACK HOME"
     MINUTE_OF_COMING_BACK_HOME = "ENTER THE MINUTE ([0-59]) YOU ARE COMING BACK HOME"
     ```
-5. Run smart_home.py (main file) as the root account
+5. Optional: add devices to smart_home.py (deafult is one device from each type)
+6. Run smart_home.py (main file) as the root account
+7. Optional: you can press the Esc key to exit the program at any time
 
 
 
