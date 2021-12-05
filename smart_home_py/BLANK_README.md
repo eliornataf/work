@@ -148,6 +148,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Elior Nataf - [@linkdin_profile](https://www.linkedin.com/in/elior) - eliorn23@gmail.com
+Elior Nataf - [@linkdin](https://www.linkedin.com/in/elior) - eliorn23@gmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
