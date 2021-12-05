@@ -8,7 +8,9 @@
 <h3 align="center">Smart-home simulator</h3>
 
   <p align="center">
-    project_description
+    Smart-home simulator
+Simulate how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
+The system was built with a multithreading library to make the best solution for multi smart-home no blocking devices.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -50,10 +52,6 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg)
-
-Smart-home simulator
-Simulate how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
-The system was built with a multithreading library to make the best solution for multi smart-home no blocking devices.
 
 The smart home solution includes 3 components:
 
