@@ -54,9 +54,9 @@ The smart home solution includes 3 components:
     Water-Heater - boil water for a specific amount of time
 
 The smart home fetch weather data every hour from a data provider (openweathermap API), analyze the income data, and send signal to the smart home devices:
-    Whenever temperature is higher than 30 degrees - send “hot” signal
-    Whenever temperature is lower than 15 degrees - send “cold” signal
-    In any other case - send “normal” signal
+    * Whenever temperature is higher than 30 degrees - send “hot” signal
+    * Whenever temperature is lower than 15 degrees - send “cold” signal
+    * In any other case - send “normal” signal
 
 Every smart device can react to signal according to the following logic:
     Switch
