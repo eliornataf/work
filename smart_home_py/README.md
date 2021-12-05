@@ -74,10 +74,10 @@ Every smart device can react to signal according to the following logic:
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.ibb.co/tLxXtTr/UML-diagram.jpg" alt="UML" width="600" height="600">
+    <img src="https://i.ibb.co/tLxXtTr/UML-diagram.jpg" alt="UML" width="1200" height="1200">
   </a>
 
-<h3 align="center">Sample</h3>
+<h3 align="center">UML diagram</h3>
 </div>
 
 ### Built With
