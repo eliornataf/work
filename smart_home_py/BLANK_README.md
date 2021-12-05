@@ -43,7 +43,7 @@ The system was built with a multithreading library to make the best solution for
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg)
-```
+
 The smart home solution includes 3 components:
 
 1. Central unit - is the “brain” of the smart-home.
@@ -68,7 +68,6 @@ Every smart device can react to signal according to the following logic:
         “normal” signal - turn off air-conditioner        
     Water-heater:
         “cold” signal - if there is less than an hour until someone is coming back home (these values will be predefined) - turn on heater for 25 minutes (then turn it off)
-```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
