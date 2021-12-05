@@ -120,9 +120,14 @@ Every smart device can react to signal according to the following logic:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<h3 align="center">UML diagram</h3>
+</div>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="https://i.ibb.co/tLxXtTr/UML-diagram.jpg" alt="UML" width="1200" height="1200">
+  </a>
 
 
 <!-- CONTACT -->
