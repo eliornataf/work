@@ -135,7 +135,7 @@ Every smart device can react to signal according to the following logic:
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.ibb.co/DbnTbQ8/Screen-Shot-2021-12-05-at-13-07-13.png" alt="UML" width="600" height="300">
+    <img src="https://i.ibb.co/DbnTbQ8/Screen-Shot-2021-12-05-at-13-07-13.png" alt="UML" width="800" height="550">
   </a>
   
   
