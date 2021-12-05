@@ -11,15 +11,6 @@
     Smart-home simulator
 Simulate how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
 The system was built with a multithreading library to make the best solution for multi smart-home no blocking devices.
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
 
