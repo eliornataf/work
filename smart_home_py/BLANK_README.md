@@ -101,20 +101,20 @@ Every smart device can react to signal according to the following logic:
 
 ### Prerequisites
 
-*emoji:
-  '''sh
+* emoji:
+  ```sh
   pip install emoji
-  '''
+  ```
 
-requests:
-  '''sh
+* requests:
+  ```sh
   pip install requests
-  '''
+  ```
 
-*termcolor:
-  '''sh
+* termcolor:
+  ```sh
   pip install termcolor
-  '''
+  ```
 
 ### Installation
    
@@ -122,12 +122,12 @@ requests:
 2. Clone the repo
 3. Install emoji, requests, termcolor packages
 4. Enter those values in 'config.py':
-    '''
+    ```
     API_KEY = "ENTER YOUR API KEY"
     CITY = "ENTER CITY TO COLLECT WEATHER (SPACE BETWEEN WORDS)"
     HOUR_OF_COMING_BACK_HOME = "ENTER THE HOUR ([0-23]) YOU ARE COMING BACK HOME"
     MINUTE_OF_COMING_BACK_HOME = "ENTER THE MINUTE ([0-59]) YOU ARE COMING BACK HOME"
-    '''
+    ```
 5. Run smart_home.py (main file) as the root account
 
 <p align="right">(<a href="#top">back to top</a>)</p>
