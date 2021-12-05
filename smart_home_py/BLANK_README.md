@@ -59,14 +59,14 @@ The smart home fetch weather data every hour from a data provider (openweatherma
     In any other case - send “normal” signal
 
 Every smart device can react to signal according to the following logic:
-    Switch
+    Switch:
         “hot” signal - turn off the light
-        “cold” signal - turn on the light 
-    Air-conditioner
+        “cold” signal - turn on the light    
+    Air-conditioner:
         “hot” signal - decrease temperature by 10 degrees
         “cold” signal - increase temperature by 13 degrees
-        “normal” signal - turn off air-conditioner
-    Water-heater
+        “normal” signal - turn off air-conditioner        
+    Water-heater:
         “cold” signal - if there is less than an hour until someone is coming back home (these values will be predefined) - turn on heater for 25 minutes (then turn it off)
 ```
 
