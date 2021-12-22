@@ -2,15 +2,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg" alt="Logo" width="600" height="300">
+    <img src="https://blog.gembaacademy.com/wp-content/uploads/2016/11/statistics.jpg" alt="Logo" width="600" height="300">
   </a>
 
-<h3 align="center">Smart-home simulator</h3>
+<h3 align="center">Data Collection</h3>
 
   <p align="center">
-    Smart-home simulator
-simulates how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
-The system was built with a multithreading library to make the best solution for multi smart-home no blocking devices.
+    In this project, web scraping software was used to extract data from websites. The software provides an automated process for those seeking access to structured web data. The automated process collects structured web data using a multithreading library to provide a faster solution for large-scale web scraping without being blocked or blacklisted. Finally, the webpage is converted to a CSV file. 
   </p>
 </div>
 
@@ -33,7 +31,6 @@ The system was built with a multithreading library to make the best solution for
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -43,104 +40,56 @@ The system was built with a multithreading library to make the best solution for
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The smart home solution includes 3 components:
+There are three main components to the project:
 
-1. Central unit - is the “brain” of the smart-home.
-2. Data provider - is a third party api weather provider (to fetch current weather data).
-3. Smart device - can be any of the followings:
-    Switch - turn light on or off
-    Air-Conditioner - manipulates room temperature
-    Water-Heater - boils water for a specific amount of time
-    
-The smart home fetches weather data every hour from a data provider (openweathermap API), analyzes the income data, and sends a signal to the smart home devices:
-- Whenever temperature is higher than 30 degrees - send “hot” signal
-- Whenever temperature is lower than 15 degrees - send “cold” signal
-- In any other case - send “normal” signal
-    
-Every smart device can react to signal according to the following logic:
+1. Data Collection - is the “brain” of the project.
+2. Scraping Manager - manages different scrapers.
+3. Serializer - transforms a solution into a CSV file.
 
-- Switch:
-    - “hot” signal - turn off the light
-    - “cold” signal - turn on the light    
-    
-- Air-conditioner:
-    - “hot” signal - decrease temperature by 10 degrees
-    - “cold” signal - increase temperature by 13 degrees
-    - “normal” signal - turn off air-conditioner      
-       
-- Water-heater:
-    - “cold” signal - if there is less than an hour until someone is coming back home (these values will be predefined) - turn on heater for 25 minutes (then turn it off)
+In order to obtain all URLs, the software gathers all zip codes from the free website zip code database. It creates a thread for each zip code, which receives the HTML from the URL, locates the data within the HTML and parses it. After the data is parsed, the software produces a CSV file.
 
 
 ### Built With
 
-* [Python3](https://www.python.org/)
-* [emoji](https://pypi.org/project/emoji/)
-* [requests](https://pypi.org/project/requests/)
-* [termcolor](https://pypi.org/project/termcolor/)
-
-
+* [python3](https://www.python.org/)
+* [pandas](https://pypi.org/project/pandas/)
+* [scraperapi-sdk](https://pypi.org/project/scraperapi-sdk/)
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+* [threading](https://docs.python.org/3/library/threading.html)
+* [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-* emoji:
+* pandas:
   ```sh
-  pip install emoji
+  pip install pandas
   ```
 
-* requests:
+* scraperapi-sdk:
   ```sh
-  pip install requests
+  pip install scraperapi-sdk
   ```
 
-* termcolor:
+* BeautifulSoup:
   ```sh
-  pip install termcolor
+  pip install beautifulsoup4
   ```
 
 ### Installation
    
-1. Get a free API Key at [https://openweathermap.org/api](https://openweathermap.org/api)
-2. Clone the repo
-3. Install emoji, requests, termcolor packages
-4. Enter those values in 'config.py':
+1. Get a free zip code Database at [https://www.unitedstateszipcodes.org](https://www.unitedstateszipcodes.org/zip_code_database.csv?download_auth=d95a522e5c4252790ce36b1148fbed94)
+2. Get a free API Key at [https://www.scraperapi.com](https://www.scraperapi.com/)
+3. Clone the repo
+4. Install pandas, scraperapi-sdk, BeautifulSoup packages
+5. Enter those values in 'config.py':
     ```
-    API_KEY = "ENTER YOUR API KEY"
-    CITY = "ENTER CITY TO COLLECT WEATHER (SPACE BETWEEN WORDS)"
-    HOUR_OF_COMING_BACK_HOME = "ENTER THE HOUR ([0-23]) YOU ARE COMING BACK HOME"
-    MINUTE_OF_COMING_BACK_HOME = "ENTER THE MINUTE ([0-59]) YOU ARE COMING BACK HOME"
+    CSV_FILE_PATH = "THE PATH TO YOUR ZIP CODE DATABASE CSV"
+    SCRAPERAPI_API_KEY = ""YOUR API KEY"
     ```
-5. Optional: add devices to smart_home.py (deafult is one device from each type)
-6. Run smart_home.py (main file) as the root account
-7. Optional: you can press the Esc key to exit the program at any time
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-<h3 align="center">UML Diagram</h3>
-</div>
-
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.ibb.co/hYxjc24/UML-diagram.jpg" alt="UML" width="1200" height="1200">
-  </a>
-
-<h3 align="center">Output Sample Screenshot</h3>
-</div>
-
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.ibb.co/rGd6RZY/screenshot.png" alt="UML" width="800" height="400">
-  </a>
-  
-  
+6. Run main.py
   
 <!-- CONTACT -->
 ## Contact
