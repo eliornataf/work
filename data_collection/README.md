@@ -40,6 +40,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+This project aims to provide zip code-level population data.
+
 The project contians three main parts:
 
 1. Data Collection - is the “brain” of the project.
