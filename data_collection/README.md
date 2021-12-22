@@ -40,13 +40,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are three main components to the project:
+The project contians three main parts:
 
 1. Data Collection - is the “brain” of the project.
 2. Scraping Manager - manages different scrapers.
 3. Serializer - transforms a solution into a CSV file.
 
-In order to obtain all URLs, the software gathers all zip codes from the free website zip code database. It creates a thread for each zip code, which receives the HTML from the URL, locates the data within the HTML and parses it. After the data is parsed, the software produces a CSV file.
+In order to obtain all URLs, the software gathers all zip codes from the free website zip code database. It creates a thread for each zip code, which sends a request to the zip code's URL to get the HTML of the page, use locators to find the data within the HTML, and parses it. After the data is parsed, the software produces a CSV file.
 
 
 ### Built With
@@ -80,11 +80,11 @@ In order to obtain all URLs, the software gathers all zip codes from the free we
 
 ### Installation
    
-1. Get a free zip code Database at [https://www.unitedstateszipcodes.org](https://www.unitedstateszipcodes.org/zip_code_database.csv?download_auth=d95a522e5c4252790ce36b1148fbed94)
-2. Get a free API Key at [https://www.scraperapi.com](https://www.scraperapi.com/)
+1. Get a free zip code Database [https://www.unitedstateszipcodes.org](https://www.unitedstateszipcodes.org/zip_code_database.csv?download_auth=d95a522e5c4252790ce36b1148fbed94)
+2. Get a free API Key [https://www.scraperapi.com](https://www.scraperapi.com/)
 3. Clone the repo
 4. Install pandas, scraperapi-sdk, BeautifulSoup packages
-5. Enter those values in 'config.py':
+5. Enter the values in 'config.py':
     ```
     CSV_FILE_PATH = "THE PATH TO YOUR ZIP CODE DATABASE CSV"
     SCRAPERAPI_API_KEY = ""YOUR API KEY"
