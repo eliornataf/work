@@ -8,7 +8,7 @@
 <h3 align="center">Data Collection</h3>
 
   <p align="center">
-    In this project, web scraping software was used to extract data from websites. The software provides an automated process for those seeking access to structured web data. The automated process collects structured web data using a multithreading library to provide a faster solution for large-scale web scraping without being blocked or blacklisted. Finally, the webpage is converted to a CSV file. 
+    In this project, web scraping software was used to extract data from websites. The software provides an automated process for those seeking access to structured web data. The automated process collects structured web data using a multithreading library to provide a fast solution for large-scale web scraping without being blocked or blacklisted. Finally, the webpage is converted to a CSV file. 
   </p>
 </div>
 
