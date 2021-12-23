@@ -5,10 +5,9 @@
     <img src="https://d33wubrfki0l68.cloudfront.net/2d12446f148533a20e1d9271da57012ca4c27766/69e14/blog/selenium-python/header_selenium_python_hu858c713577cea0e612703bbde5071118_85692_825x0_resize_catmullrom_2.png" alt="Logo" width="600" height="300">
   </a>
 
-<h3 align="center">Smart-home simulator</h3>
+<h3 align="center">Automatic Downloading</h3>
 
   <p align="center">
-    Automatic Downloading
   </p>
 </div>
 
