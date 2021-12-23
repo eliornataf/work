@@ -2,15 +2,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://www.sifis-home.eu/wp-content/uploads/2021/01/AdobeStock_304073455-Converted_smarthome.jpg" alt="Logo" width="600" height="300">
+    <img src="https://d33wubrfki0l68.cloudfront.net/2d12446f148533a20e1d9271da57012ca4c27766/69e14/blog/selenium-python/header_selenium_python_hu858c713577cea0e612703bbde5071118_85692_825x0_resize_catmullrom_2.png" alt="Logo" width="600" height="300">
   </a>
 
 <h3 align="center">Smart-home simulator</h3>
 
   <p align="center">
-    Smart-home simulator
-simulates how a central smart-unit controls a set of smart-devices in order to create a smart-home experience (relies entirely on server-side component).
-The system was built with a multithreading library to make the best solution for multi smart-home no blocking devices.
+    Automatic Downloading
   </p>
 </div>
 
@@ -33,7 +31,6 @@ The system was built with a multithreading library to make the best solution for
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -43,104 +40,43 @@ The system was built with a multithreading library to make the best solution for
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The smart home solution includes 3 components:
-
-1. Central unit - is the “brain” of the smart-home.
-2. Data provider - is a third party api weather provider (to fetch current weather data).
-3. Smart device - can be any of the followings:
-    Switch - turn light on or off
-    Air-Conditioner - manipulates room temperature
-    Water-Heater - boils water for a specific amount of time
-    
-The smart home fetches weather data every hour from a data provider (openweathermap API), analyzes the income data, and sends a signal to the smart home devices:
-- Whenever temperature is higher than 30 degrees - send “hot” signal
-- Whenever temperature is lower than 15 degrees - send “cold” signal
-- In any other case - send “normal” signal
-    
-Every smart device can react to signal according to the following logic:
-
-- Switch:
-    - “hot” signal - turn off the light
-    - “cold” signal - turn on the light    
-    
-- Air-conditioner:
-    - “hot” signal - decrease temperature by 10 degrees
-    - “cold” signal - increase temperature by 13 degrees
-    - “normal” signal - turn off air-conditioner      
-       
-- Water-heater:
-    - “cold” signal - if there is less than an hour until someone is coming back home (these values will be predefined) - turn on heater for 25 minutes (then turn it off)
+In this project, PDF files relevant to US states is automatically downloaded from the google mobility platform, in order to evaluate how communities is moving around differently due to COVID-19.
+During the development of this project, Selenium and BeautifulSoup libraries were used. Selenium was used to automate web browser interaction, and Beautiful Soup was used to scrape information from the webpage.
 
 
 ### Built With
 
 * [Python3](https://www.python.org/)
-* [emoji](https://pypi.org/project/emoji/)
-* [requests](https://pypi.org/project/requests/)
-* [termcolor](https://pypi.org/project/termcolor/)
-
-
+* [selenium](https://pypi.org/project/selenium/)
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-* emoji:
+* selenium:
   ```sh
-  pip install emoji
+  pip install selenium
   ```
 
-* requests:
+* BeautifulSoup:
   ```sh
-  pip install requests
+  pip install beautifulsoup4
   ```
-
-* termcolor:
-  ```sh
-  pip install termcolor
-  ```
+  
 
 ### Installation
    
-1. Get a free API Key at [https://openweathermap.org/api](https://openweathermap.org/api)
-2. Clone the repo
-3. Install emoji, requests, termcolor packages
-4. Enter those values in 'config.py':
+1. Open Google Chrome and click the attached link to see what version you're using [what-version-of-chrome-do-i-have](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have)
+2. Download the ChromeDriver that matches your version from [https://chromedriver.chromium.org](https://chromedriver.chromium.org/)
+3. Clone the repo
+4. Install selenium, BeautifulSoup packages
+5. Enter those values in 'config.py':
     ```
-    API_KEY = "ENTER YOUR API KEY"
-    CITY = "ENTER CITY TO COLLECT WEATHER (SPACE BETWEEN WORDS)"
-    HOUR_OF_COMING_BACK_HOME = "ENTER THE HOUR ([0-23]) YOU ARE COMING BACK HOME"
-    MINUTE_OF_COMING_BACK_HOME = "ENTER THE MINUTE ([0-59]) YOU ARE COMING BACK HOME"
+    DRIVER_PATH = "YOUR COMPUTER'S CHROME DRIVER PATH"
     ```
-5. Optional: add devices to smart_home.py (deafult is one device from each type)
-6. Run smart_home.py (main file) as the root account
-7. Optional: you can press the Esc key to exit the program at any time
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-<h3 align="center">UML Diagram</h3>
-</div>
-
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.ibb.co/hYxjc24/UML-diagram.jpg" alt="UML" width="1200" height="1200">
-  </a>
-
-<h3 align="center">Output Sample Screenshot</h3>
-</div>
-
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://i.ibb.co/rGd6RZY/screenshot.png" alt="UML" width="800" height="400">
-  </a>
-  
-  
+6. Run automatic_downloading.py
   
 <!-- CONTACT -->
 ## Contact
