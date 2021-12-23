@@ -39,7 +39,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project, PDF files relevant to US states is automatically downloaded from the google mobility platform, in order to evaluate how communities is moving around differently due to COVID-19.
+In this project, PDF files relevant to US states are automatically downloaded from the google mobility platform, in order to evaluate how communities are moving around differently due to COVID-19.
 During the development of this project, Selenium and BeautifulSoup libraries were used. Selenium was used to automate web browser interaction, and Beautiful Soup was used to scrape information from the webpage.
 
 
