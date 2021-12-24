@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project analyzes Craigslist city-specific URLs using Wayback CDX Server API. The 'Way Back Machine' is an online archive of old versions of a website. Our software creates API requests and uses the response to generate a table in which each row represents a date point with its datetime, url, and the number of pages.
+This project analyzes Craigslist city-specific URL using Wayback CDX Server API. The 'Way Back Machine' is an online archive of old versions of a website. Our software creates API request and uses the response to generate a table in which each row represents a date point with its datetime, url, and the number of pages.
 
 ### Built With
 
