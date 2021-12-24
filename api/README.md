@@ -43,12 +43,12 @@ This project analyzes Craigslist city-specific URL using Wayback CDX Server API.
 ### Built With
 
 * [Python3](https://www.python.org/)
+* [Wayback CDX Server API](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
 * [requests](https://pypi.org/project/requests/)
 * [urllib.request](https://docs.python.org/3/library/urllib.request.html)
 * [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 * [math](https://docs.python.org/3/library/math.html)
 * [pandas](https://pypi.org/project/pandas/)
-* [Wayback CDX Server API](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
 
 
 <!-- GETTING STARTED -->
