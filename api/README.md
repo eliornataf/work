@@ -48,7 +48,7 @@ This project analyzes Craigslist city-specific URL using Wayback CDX Server API.
 * [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 * [math](https://docs.python.org/3/library/math.html)
 * [pandas](https://pypi.org/project/pandas/)
-
+* [Wayback CDX Server API](https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server)
 
 
 <!-- GETTING STARTED -->
